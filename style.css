@@ -1,5 +1,6 @@
 .tree {
-  background: linear-gradient(to bottom right,#877BFF,#4384AA,#4364AC);
+  background: linear-gradient(to bottom right,#877BFF,#4384AA,#4364AC
+  );
 }
 .external {
   list-style: none;
@@ -11,4 +12,22 @@
   list-style: none;
   display: inline-block;
   color: inherit;
+}
+.title {
+  color: white;
+  font-size: 80px;
+  
+}
+
+.info{
+ color: #EAECED;
+ font-size: 30px;
+  
+}
+
+.upmenu {
+  
+  border: solid 2px;
+  border-color: #877BFF;
+  padding: 10px;
 }
