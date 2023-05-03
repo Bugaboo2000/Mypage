@@ -1,0 +1,14 @@
+.tree {
+  background: linear-gradient(to bottom right,#877BFF,#4384AA,#4364AC);
+}
+.external {
+  list-style: none;
+  display: inline-block;
+  color: inherit;
+}
+
+.options {
+  list-style: none;
+  display: inline-block;
+  color: inherit;
+}
