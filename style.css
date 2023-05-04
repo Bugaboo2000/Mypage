@@ -6,6 +6,7 @@
   list-style: none;
   display: inline-block;
   color: white;
+  padding: 10px;
 }
 
 .title {
@@ -26,4 +27,10 @@
   border-color: none;
   padding: 10px;
   font-size: 30px;
+}
+
+.icon {
+  color: white;
+  width: 5%;
+  height 3%;
 }
