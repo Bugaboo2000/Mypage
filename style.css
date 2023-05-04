@@ -6,7 +6,7 @@
   list-style: none;
   display: inline-block;
   color: white;
-  padding: 10px;
+  padding: 16px;
 }
 
 .title {
@@ -32,5 +32,6 @@
 .icon {
   color: white;
   width: 5%;
-  height 3%;
+  height: 2%;
 }
+
