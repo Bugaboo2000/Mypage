@@ -2,17 +2,12 @@
   background: linear-gradient(to bottom right,#877BFF,#4384AA,#4364AC
   );
 }
-.external {
+.external, .options{
   list-style: none;
   display: inline-block;
-  color: inherit;
+  color: white;
 }
 
-.options {
-  list-style: none;
-  display: inline-block;
-  color: inherit;
-}
 .title {
   color: white;
   font-size: 80px;
@@ -27,7 +22,8 @@
 
 .upmenu {
   
-  border: solid 2px;
-  border-color: #877BFF;
+  border: none;
+  border-color: none;
   padding: 10px;
+  font-size: 30px;
 }
