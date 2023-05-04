@@ -15,6 +15,10 @@
   
 }
 
+h2 {
+  color: #EAECED;
+}
+
 .info{
  color: #EAECED;
  font-size: 30px;
@@ -33,5 +37,6 @@
   color: white;
   width: 5%;
   height: 2%;
+  filter: invert(1);
 }
 
