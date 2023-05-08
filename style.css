@@ -40,3 +40,10 @@ h2 {
   filter: invert(1);
 }
 
+.LangOptions {
+  visibility: hidden;
+}
+
+.options {
+  
+}
