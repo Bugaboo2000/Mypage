@@ -6,7 +6,7 @@
   list-style: none;
   display: inline-block;
   color: white;
-  padding: 20px;
+  margin-right: 80px;
 }
 
 .title {
@@ -51,6 +51,7 @@ h2 {
 @media screen and (max-width: 730px) {
   .external, .options, p, li, ul{
     font-size: 65%;
+    margin-right: 50px;
 }
 h2 {
   font-size: 90%;
