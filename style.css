@@ -6,7 +6,7 @@
   list-style: none;
   display: inline-block;
   color: white;
-  margin: 20px;
+  padding: 20px;
 }
 
 .title {
@@ -41,9 +41,24 @@ h2 {
 }
 
 .LangOptions {
-  visibility: hidden;
+  display: none;
 }
 
 .options {
   
+}
+
+@media screen and (max-width: 730px) {
+  .external, .options, p, li, ul{
+    font-size: 65%;
+}
+h2 {
+  font-size: 90%;
+}
+.title {
+ font-size: 70px;
+}
+  
+  
+ }
 }
