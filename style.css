@@ -44,11 +44,10 @@ h2 {
 .LangOptions {
   display: none;
   cursor: pointer;
+  list-style: none;
+  color: white;
 }
 
-.options {
-  
-}
 
 @media screen and (max-width: 730px) {
   .external, .options, p, li, ul{
