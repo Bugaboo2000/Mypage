@@ -1,5 +1,6 @@
 .tree {
   background: linear-gradient(to bottom right, #877BFF, #4384AA, #4364AC);
+  background: linear-gradient(to bottom left, #877BFF, #4384AA, #4364AC);
 }
 
 .external,
@@ -7,13 +8,13 @@
   list-style: none;
   display: inline-block;
   color: white;
-  margin-right: 80px;
+  margin-right: 60px;
   cursor: pointer;
 }
 
 .title {
   color: white;
-  font-size: 80px;
+  font-size: 60px;
 
 }
 
@@ -37,8 +38,8 @@ h2 {
 
 .icon {
   color: white;
-  width: 5%;
-  height: 2%;
+  width: 7%;
+  height: 5%;
   filter: invert(1);
 }
 
