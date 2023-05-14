@@ -1,8 +1,9 @@
 .tree {
-  background: linear-gradient(to bottom right,#877BFF,#4384AA,#4364AC
-  );
+  background: linear-gradient(to bottom right, #877BFF, #4384AA, #4364AC);
 }
-.external, .options{
+
+.external,
+.options {
   list-style: none;
   display: inline-block;
   color: white;
@@ -13,21 +14,21 @@
 .title {
   color: white;
   font-size: 80px;
-  
+
 }
 
 h2 {
   color: #EAECED;
 }
 
-.info{
- color: #EAECED;
- font-size: 30px;
-  
+.info {
+  color: #EAECED;
+  font-size: 30px;
+
 }
 
 .upmenu {
-  
+
   border: none;
   border-color: none;
   padding: 10px;
@@ -50,13 +51,24 @@ h2 {
 
 
 @media screen and (max-width: 730px) {
-  .external, .options, p, li, ul{
+
+  .external,
+  .options,
+  p,
+  li,
+  ul {
     font-size: 65%;
     margin-right: 50px;
+  }
+
+  .title {
+    font-size: 70px;
+  }
+
+
 }
-.title {
- font-size: 70px;
+
+.flag {
+  width: 5%;
+  height: 2%;
 }
-  
-  
- }
