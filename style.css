@@ -4,7 +4,7 @@
 }
 
 .external,
-.options {
+.Language {
   list-style: none;
   display: inline-block;
   color: white;
@@ -42,19 +42,34 @@ h2 {
   height: 5%;
   filter: invert(1);
 }
-
+.flags {
+  width: 3%;
+  filter: blur(1);
+}
 .LangOptions {
   display: none;
   cursor: pointer;
-  list-style: none;
   color: white;
+  list-style:none;
+  border: solid 5px white;
+  border-radius: 15px;
+  border-width: 3px;
+  border-right: 3px;
+  padding: 5px;
+  size: 5px;
+  background-color: linear-gradient(to bottom right, #877BFF, #4384AA, #4364AC);
 }
 
+.portuguese, .english {
+list-style: none;
+color: azure;
+
+}
 
 @media screen and (max-width: 730px) {
 
   .external,
-  .options,
+  .Language,
   p,
   li,
   ul {
@@ -69,7 +84,3 @@ h2 {
 
 }
 
-.flag {
-  width: 5%;
-  height: 2%;
-}
