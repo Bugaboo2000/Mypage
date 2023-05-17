@@ -10,6 +10,14 @@
   color: white;
   margin-right: 60px;
   cursor: pointer;
+  animation-duration: 1s;
+  animation-name: options;
+}
+
+@keyframes options {
+  cursor {
+    transform: 0.5;
+  }
 }
 
 .title {
@@ -29,7 +37,6 @@ h2 {
 }
 
 .upmenu {
-
   border: none;
   border-color: none;
   padding: 10px;
