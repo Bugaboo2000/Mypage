@@ -14,11 +14,6 @@
   animation-name: options;
 }
 
-@keyframes options {
-  cursor {
-    transform: 0.5;
-  }
-}
 
 .title {
   color: white;
@@ -42,6 +37,17 @@ h2 {
   padding: 10px;
   font-size: 30px;
 }
+
+
+.external:hover {
+  color: #91b7c6;
+}
+
+.Language:hover {
+  color: #91b7c6;
+
+}
+
 
 .icon {
   color: white;
