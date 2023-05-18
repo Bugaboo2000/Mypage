@@ -41,10 +41,12 @@ h2 {
 
 .external:hover {
   color: #91b7c6;
+  transform: translateY(-3px);
 }
 
 .Language:hover {
   color: #91b7c6;
+  transform: translateY(-3px);
 
 }
 
@@ -55,15 +57,17 @@ h2 {
   height: 5%;
   filter: invert(1);
 }
+
 .flags {
   width: 3%;
   filter: blur(1);
 }
+
 .LangOptions {
   display: none;
   cursor: pointer;
   color: white;
-  list-style:none;
+  list-style: none;
   border: solid 5px white;
   border-radius: 15px;
   border-width: 3px;
@@ -73,9 +77,10 @@ h2 {
   background-color: linear-gradient(to bottom right, #877BFF, #4384AA, #4364AC);
 }
 
-.portuguese, .english {
-list-style: none;
-color: azure;
+.portuguese,
+.english {
+  list-style: none;
+  color: azure;
 
 }
 
@@ -96,4 +101,3 @@ color: azure;
 
 
 }
-
