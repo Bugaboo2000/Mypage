@@ -1,2 +1,2 @@
-var language = document.getElementById(Language);
-var langoptions = document.getElementById(Langoptions);
+var language = document.getElementById(language);
+var langoptions = document.getElementById(langoptions);

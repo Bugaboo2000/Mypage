@@ -1,4 +1,5 @@
 .tree {
+  overflow: scroll;
   background: linear-gradient(to bottom right, #877BFF, #4384AA, #4364AC);
   background: linear-gradient(to bottom left, #877BFF, #4384AA, #4364AC);
 }
@@ -16,7 +17,11 @@
   appearance: none;
 }
 
+.Langoptions {
 
+  display: none;
+
+}
 .title {
   color: white;
   font-size: 60px;
@@ -24,12 +29,15 @@
 }
 
 .profile {
+border-radius: 100%;
 
-border-radius: 600px;
+overflow: hidden;
+box-shadow: black;
 width: 200px;
 box-shadow: black;
 align-self: inherit;
-
+width: 200px;
+height: 200px;
 
 }
 h2 {
