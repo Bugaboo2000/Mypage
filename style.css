@@ -18,8 +18,12 @@
 }
 
 .Langoptions {
-
   display: none;
+}
+
+#ref {
+
+outline: none;
 
 }
 .title {
