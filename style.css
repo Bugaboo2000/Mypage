@@ -62,10 +62,9 @@ h2 {
 
 .sources {
 
-color: white;
-appearance: none;
-text-decoration: none;
-
+  color: white;
+  appearance: none;
+  text-decoration: none;
 
 }
 
@@ -83,6 +82,7 @@ text-decoration: none;
   color: #91b7c6;
   transform: translateY(-3px);
 }
+
 .icon {
   color: white;
   width: 7%;
