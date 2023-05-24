@@ -12,9 +12,7 @@
   margin-right: 60px;
   cursor: pointer;
   border: none;
-  -webkit-appearance: none;
-  outline: none;
-  appearance: none;
+  text-decoration: none;
 }
 
 .Langoptions {
@@ -62,6 +60,14 @@ h2 {
   font-size: 30px;
 }
 
+.sources {
+
+color: white;
+appearance: none;
+text-decoration: none;
+
+
+}
 
 .external:hover {
   color: #91b7c6;
@@ -73,7 +79,10 @@ h2 {
   transform: translateY(-3px);
 }
 
-
+.sources:hover {
+  color: #91b7c6;
+  transform: translateY(-3px);
+}
 .icon {
   color: white;
   width: 7%;
