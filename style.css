@@ -86,8 +86,16 @@ h2 {
 .icon {
   color: white;
   width: 7%;
-  height: 5%;
+  height: 3%;
   filter: invert(1);
+}
+
+.globe{
+
+  color: white;
+  height: 3%;
+  filter: invert(1);
+
 }
 
 .flags {
