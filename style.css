@@ -1,7 +1,10 @@
+
+
+
 .tree {
   overflow: scroll;
-  background: linear-gradient(to bottom right, #877BFF, #4384AA, #4364AC);
-  background: linear-gradient(to bottom left, #877BFF, #4384AA, #4364AC);
+  background: linear-gradient(to bottom right, #fafafa, #4384AA, #1f51bb);
+  background: linear-gradient(to bottom left, #42d3ff, #ff8fe3, #dfe228);
 }
 
 .external,
