@@ -19,7 +19,8 @@
 }
 
 p {
-
+  animation: 3s linear forwards;
+  /* I have plans to add scroll animations */
   list-style: none;
   display: inline-block;
   color: white;
