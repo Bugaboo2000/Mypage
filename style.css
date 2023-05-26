@@ -7,7 +7,8 @@
 }
 
 .external,
-.Language {
+.Language
+{
   list-style: none;
   display: inline-block;
   color: white;
@@ -15,6 +16,19 @@
   cursor: pointer;
   border: none;
   text-decoration: none;
+}
+
+p {
+
+  list-style: none;
+  display: inline-block;
+  color: white;
+  margin-right: 60px;
+  border: none;
+  text-decoration: none;
+
+
+
 }
 
 .Langoptions {
