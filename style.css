@@ -4,7 +4,7 @@
   overflow: scroll;
   background: linear-gradient(to bottom right, #fafafa, #4384AA, #1f51bb);
   background: linear-gradient(to bottom left, #42d3ff, #ff8fe3, #dfe228);
-  animation: Fade 0.90s linear forwards;
+
 }
 
 .external,
@@ -17,22 +17,18 @@
   cursor: pointer;
   border: none;
   text-decoration: none;
-  animation: Menu 3s linear forwards;
+  animation: Menu 0.90s linear forwards;
 }
 
 @keyframes Menu {
 
   from {
 
-    transform: translateY(-10px)
+    transform: translateY(-6px)
 
   }
 
-to {
 
-transform: translateY(+10px)
-
-}
 
 }
 
@@ -83,7 +79,7 @@ opacity: 1;
 
 from {
 
-transform: translateX(-100px);
+transform: translateX(-10px);
 
 }
 
