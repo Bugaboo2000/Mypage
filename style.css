@@ -8,8 +8,7 @@
 }
 
 .external,
-.Language
-{
+.Language {
   list-style: none;
   display: inline-block;
   color: white;
@@ -20,12 +19,17 @@
   animation: Menu 0.90s linear forwards;
 }
 
+a,
+#ref {
+  text-decoration: none;
+  outline: none;
+}
+
 @keyframes Menu {
 
   from {
 
     transform: translateY(-6px)
-
   }
 
 
@@ -48,24 +52,18 @@ p {
 
 @keyframes Fade {
 
-from {
-opacity: 0;
-}
+  from {
+    opacity: 0;
+  }
 
-to {
-opacity: 1;
-}
+  to {
+    opacity: 1;
+  }
 
 }
 
 .Langoptions {
   display: none;
-}
-
-#ref {
-
-  outline: none;
-
 }
 
 .title {
@@ -77,11 +75,11 @@ opacity: 1;
 
 @keyframes Scroll {
 
-from {
+  from {
 
-transform: translateX(-10px);
+    transform: translateX(-10px);
 
-}
+  }
 
 
 }
@@ -102,17 +100,17 @@ transform: translateX(-10px);
 
 @keyframes Profile {
 
-from {
+  from {
 
-  opacity: 0;
+    opacity: 0;
 
-}
+  }
 
-to {
+  to {
 
-opacity: 1;
+    opacity: 1;
 
-}
+  }
 
 }
 
@@ -145,20 +143,14 @@ h2 {
 
 }
 
-.external:hover {
-  color: #91b7c6;
-  transform: translateY(-3px);
-}
-
-.Language:hover {
-  color: #91b7c6;
-  transform: translateY(-3px);
-}
-
+.external:hover,
+.Language:hover,
+.icon:hover,
 .sources:hover {
   color: #91b7c6;
   transform: translateY(-3px);
 }
+
 
 .icon {
   color: white;
@@ -168,7 +160,8 @@ h2 {
 
 }
 
-.globe{
+
+.globe {
 
   color: white;
   height: 3%;
