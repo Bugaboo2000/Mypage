@@ -183,19 +183,39 @@ h2 {
 
 }
 
+.LangSelect {
+
+  display: none;
+}
 @media screen and (max-width: 730px) {
 
   .external,
-  .Language,
-  p,
-  li,
-  ul {
+  .Language
+  {
     font-size: 65%;
     margin-right: 50px;
   }
 
+p,
+li,
+ul {
+
+font-size: 40%;
+
+}  
+  .Language {
+
+display: none;
+
+.LangSelect {
+
+  display: show;
+
+}
+
+  }
   .title {
-    font-size: 70px;
+    font-size: 40px;
   }
 
 
