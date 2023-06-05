@@ -10,7 +10,7 @@
 .external,
 .Language {
   list-style: none;
-  display: inline-block;
+  display: inline-block; 
   color: white;
   margin-right: 60px;
   cursor: pointer;
@@ -66,7 +66,8 @@ p {
   display: none;
 }
 
-.title {
+.title,
+.nottosee {
   color: white;
   font-size: 60px;
   animation: Scroll 0.90s linear backwards;
