@@ -9,6 +9,7 @@
 
 .external,
 .Language {
+  font-family: 'Courier New', Courier, monospace;
   list-style: none;
   display: inline-block; 
   color: white;
@@ -45,8 +46,7 @@ p {
   margin-right: 60px;
   border: none;
   text-decoration: none;
-
-
+  font-family: 'Courier New', Courier;
 
 }
 
