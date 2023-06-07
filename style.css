@@ -9,7 +9,6 @@
 
 .external,
 .Language {
-  font-family: 'Courier New', Courier, monospace;
   list-style: none;
   display: inline-block; 
   color: white;
@@ -46,7 +45,6 @@ p {
   margin-right: 60px;
   border: none;
   text-decoration: none;
-  font-family: 'Courier New', Courier;
 
 }
 
@@ -81,6 +79,32 @@ p {
     transform: translateX(-10px);
 
   }
+
+
+}
+
+.title {
+  font-size: 60px;
+  width: 14ch;
+  border-left: 2px solid;
+  border-left-width: 10px solid;
+  border-spacing: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: Reveal 2s;
+
+}
+
+@keyframes Reveal {
+  from {
+  width: 0;
+ 
+  }
+
+50% {
+  border-color:transparent;
+
+}
 
 
 }
@@ -125,6 +149,7 @@ h2 {
 .info {
   color: #EAECED;
   font-size: 30px;
+  margin: -0.6px;
   animation: Fade 3s linear forwards;
 }
 
