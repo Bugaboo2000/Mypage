@@ -208,10 +208,11 @@ h2 {
 
 }
 
-.LangSelect {
-
-  display: none;
+.LangSelect
+ {
+ display: none;
 }
+
 @media screen and (max-width: 730px) {
 
   .external,
@@ -232,16 +233,11 @@ font-size: 40%;
 
 display: none;
 
+  }
+
 .LangSelect {
 
-  display: show;
-
+  display: block;
 }
-
-  }
-  .title {
-    font-size: 40px;
-  }
-
 
 }
