@@ -16,6 +16,7 @@
   cursor: pointer;
   border: none;
   text-decoration: none;
+  filter: drop-shadow(12px,12px,7px rgba(0,0,0, 0.7));
   animation: Menu 0.90s linear forwards;
 }
 
@@ -91,6 +92,7 @@ p {
   border-spacing: 30px;
   white-space: nowrap;
   overflow: hidden;
+  filter: drop-shadow(12px,12px,7px rgba(0,0,0, 0.7));
   animation: Reveal 2s;
 
 }
@@ -113,12 +115,12 @@ p {
 .profile {
   border-radius: 100%;
   overflow: hidden;
-  box-shadow: black;
   width: 200px;
   box-shadow: black;
   align-self: inherit;
   width: 300px;
   height: 300px;
+  filter: drop-shadow(12px,12px,7px rgba(0,0,0, 0.7));
   animation: Profile 2s linear forwards;
 
 }
