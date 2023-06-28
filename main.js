@@ -13,5 +13,4 @@ var showcase = document.querySelector(".showcase");
             document.querySelector(".rocket").innerHTML = "Instalador do cliente antigo de Rocket League para Linux";
 
         }
-
-        
+var language = document.querySelector("")
