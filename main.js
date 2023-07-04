@@ -1,3 +1,4 @@
+// Portuguese automatic translation
 var subtitle = document.querySelector("h2");
 var textInfo = document.querySelector(".Textinfo");
 var showcase = document.querySelector(".showcase");
@@ -13,4 +14,5 @@ var showcase = document.querySelector(".showcase");
             document.querySelector(".rocket").innerHTML = "Instalador do cliente antigo de Rocket League para Linux";
 
         }
-var language = document.querySelector("")
+var language = document.querySelector("Language");
+language.addEventListener("click", console.log("Button pressed"));
