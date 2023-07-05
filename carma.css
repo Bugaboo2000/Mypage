@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Outfit:wght@100&family=Raleway:wght@100&family=Roboto+Condensed:wght@300&display=swap');
+
+.tree {
+  overflow: scroll;
+  background: linear-gradient(to bottom right, #fafafa, #4384AA, #1f51bb);
+  background: linear-gradient(to bottom left, #42d3ff, #ff8fe3, #dfe228);
+
+}
+
+.external,
+.Language {
+  list-style: none;
+  display: inline-block; 
+  color: white;
+  margin-right: 60px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  filter: drop-shadow(12px,12px,7px rgba(0,0,0, 0.7));
+  animation: Menu 0.90s linear forwards;
+}
+
+a,
+#ref {
+  text-decoration: none;
+  outline: none;
+}
+
+@keyframes Menu {
+
+  from {
+
+    transform: translateY(-6px)
+  }
+
+
+
+}
+
+
+p {
+  animation: Fade 3s linear forwards;
+  list-style: none;
+  display: inline-block;
+  color: white;
+  margin-right: 60px;
+  border: none;
+  text-decoration: none;
+
+}
+
+@keyframes Fade {
+
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+
+}
+
+.Langoptions {
+  display: none;
+}
+
+.title,
+.subtitle {
+  color: white;
+  font-size: 60px;
+  animation: Scroll 0.90s linear backwards;
+
+}
+
+@keyframes Scroll {
+
+  from {
+
+    transform: translateX(-10px);
+
+  }
+
+
+}
+
+.title {
+  font-size: 60px;
+  width: 14ch;
+  border-left: 2px solid;
+  border-left-width: 10px solid;
+  border-spacing: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  filter: drop-shadow(12px,12px,7px rgba(0,0,0, 0.7));
+  animation: Reveal 2s;
+
+}
+
+@keyframes Reveal {
+  from {
+  width: 0;
+ 
+  }
+
+50% {
+  border-color:transparent;
+
+}
+
+
+}
+
+
+.profile {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 200px;
+  box-shadow: black;
+  align-self: inherit;
+  width: 300px;
+  height: 300px;
+  filter: drop-shadow(12px,12px,7px rgba(0,0,0, 0.7));
+  animation: Profile 2s linear forwards;
+
+}
+
+@keyframes Profile {
+
+  from {
+
+    opacity: 0;
+
+  }
+
+  to {
+
+    opacity: 1;
+
+  }
+
+}
+
+
+
+h2 {
+  color: #EAECED;
+  animation: Scroll 0.90s linear backwards;
+}
+
+.info {
+  color: #EAECED;
+  font-size: 30px;
+  margin: -0.6px;
+  animation: Fade 3s linear forwards;
+}
+
+.upmenu {
+  border: none;
+  border-color: none;
+  padding: 10px;
+  font-size: 30px;
+  animation: Fade 3s linear forwards;
+}
+
+.sources {
+
+  color: white;
+  appearance: none;
+  text-decoration: none;
+
+}
+
+.external:hover,
+.Language:hover,
+.icon:hover,
+.sources:hover {
+  color: #91b7c6;
+  transform: translateY(-3px);
+}
+
+
+.icon {
+  color: white;
+  width: 7%;
+  height: 3%;
+  filter: invert(1);
+
+}
+
+
+.globe {
+
+  color: white;
+  height: 3%;
+  filter: invert(1);
+
+}
+
+.flags {
+  width: 3%;
+  filter: blur(1);
+}
+
+
+.portuguese,
+.english {
+  list-style: none;
+  color: azure;
+
+}
+
+.LangSelect
+ {
+ display: none;
+ border-radius: 4px;
+ line-height: inherit;
+ appearance: none;
+ outline: none;
+}
+
+@media screen and (max-width: 730px) {
+
+  .external,
+  .Language
+  {
+    font-size: 65%;
+    margin-right: 50px;
+  }
+
+p,
+li,
+ul {
+
+font-size: 40%;
+
+}  
+  .Language {
+
+display: none;
+
+  }
+
+.LangSelect {
+
+  display: block;
+}
+
+}
+
+.carma2 {
+
+  width: 30%;
+
+}
