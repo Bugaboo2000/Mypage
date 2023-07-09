@@ -118,7 +118,7 @@ p {
   border-radius: 100%;
   overflow: hidden;
   width: 200px;
-  box-shadow: black;
+  box-shadow: 3px 3px 3px lightgrey;
   align-self: inherit;
   width: 300px;
   height: 300px;
