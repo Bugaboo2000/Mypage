@@ -259,4 +259,9 @@ h2 {
 
 width: 100px;
 border-radius: 30px;
+cursor: pointer;
+}
+
+.lutris:hover {
+box-shadow: 3px 3px 3px lightgray;
 }
