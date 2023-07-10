@@ -12,6 +12,7 @@ var showcase = document.querySelector(".showcase");
             document.querySelector(".roblox").innerHTML = "Instalador do Roblox para Linux";
             document.querySelector(".carma2").innerHTML = "Fix para Carmageddon 2 em novos Hardwares";
             document.querySelector(".rocket").innerHTML = "Instalador do cliente antigo de Rocket League para Linux";
+            document.querySelector(".copy").innerHTML = "Criado por Gustavo Ribeiro &copy; 2023";
 
         }
 var language = document.querySelector("Language");
