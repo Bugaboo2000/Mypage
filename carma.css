@@ -260,13 +260,13 @@ h2 {
 
 .lutris {
 
-width: 100px;
-border-radius: 30px;
-cursor: pointer;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
 }
 
 .lutris:hover {
-box-shadow: 3px 3px 3px lightgray;
+  box-shadow: 3px 3px 3px lightgray;
 }
 
 .codepage {
@@ -277,7 +277,7 @@ box-shadow: 3px 3px 3px lightgray;
 
 .codepage:hover {
   box-shadow: 3px 3px 3px lightgray;
-  }
+}
 
 
 .codepage {
@@ -296,7 +296,7 @@ box-shadow: 3px 3px 3px lightgray;
 }
 
 .codeicon {
-width: 40px;
+  width: 40px;
 
 
 
