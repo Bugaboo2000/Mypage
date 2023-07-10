@@ -16,7 +16,7 @@
   cursor: pointer;
   border: none;
   text-decoration: none;
-  filter: drop-shadow(12px,12px,7px rgba(0,0,0, 0.7));
+  filter: drop-shadow(12px 12px 7px rgba(0,0,0, 0.7));
   animation: Menu 0.90s linear forwards;
 }
 
@@ -70,6 +70,7 @@ p {
   color: white;
   font-size: 60px;
   animation: Scroll 0.90s linear backwards;
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
 
 }
 
@@ -116,7 +117,7 @@ p {
   border-radius: 100%;
   overflow: hidden;
   width: 200px;
-  box-shadow: 4px 4px 4px black;
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
   align-self: inherit;
   width: 300px;
   height: 300px;
@@ -145,12 +146,14 @@ p {
 
 h2 {
   color: #EAECED;
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
   animation: Scroll 0.90s linear backwards;
 }
 
 .info {
   color: #EAECED;
   font-size: 30px;
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
   margin: -0.6px;
   animation: Fade 3s linear forwards;
 }
