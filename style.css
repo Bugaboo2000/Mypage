@@ -11,13 +11,13 @@
 .Language {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   list-style: none;
-  display: inline-block; 
+  display: inline-block;
   color: white;
   margin-right: 60px;
   cursor: pointer;
   border: none;
   text-decoration: none;
-  filter: drop-shadow(12px 12px 7px rgba(0,0,0, 0.7));
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
   animation: Menu 0.90s linear forwards;
 }
 
@@ -99,21 +99,21 @@ p {
   border-spacing: 30px;
   white-space: nowrap;
   overflow: hidden;
-  filter: drop-shadow(12px,12px,7px rgba(0,0,0, 0.7));
+  filter: drop-shadow(12px, 12px, 7px rgba(0, 0, 0, 0.7));
   animation: Reveal 2s;
 
 }
 
 @keyframes Reveal {
   from {
-  width: 0;
- 
+    width: 0;
+
   }
 
-50% {
-  border-color:transparent;
+  50% {
+    border-color: transparent;
 
-}
+  }
 
 
 }
@@ -127,7 +127,7 @@ p {
   align-self: inherit;
   width: 300px;
   height: 300px;
-  filter: drop-shadow(12px,12px,7px rgba(0,0,0, 0.7));
+  filter: drop-shadow(12px, 12px, 7px rgba(0, 0, 0, 0.7));
   animation: Profile 2s linear forwards;
 
 }
@@ -223,41 +223,40 @@ h2 {
 
 }
 
-.LangSelect
- {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- display: none;
- border-radius: 4px;
- line-height: inherit;
- appearance: none;
- outline: none;
+.LangSelect {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  display: none;
+  border-radius: 4px;
+  line-height: inherit;
+  appearance: none;
+  outline: none;
 }
 
 @media screen and (max-width: 730px) {
 
   .external,
-  .Language
-  {
+  .Language {
     font-size: 65%;
     margin-right: 50px;
   }
 
-p,
-li,
-ul {
+  p,
+  li,
+  ul {
 
-font-size: 40%;
-
-}  
-  .Language {
-
-display: none;
+    font-size: 40%;
 
   }
 
-.LangSelect {
+  .Language {
 
-  display: block;
-}
+    display: none;
+
+  }
+
+  .LangSelect {
+
+    display: block;
+  }
 
 }
