@@ -42,7 +42,7 @@ a,
 
 p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: large;
+  font-size: 26px;
   animation: Fade 3s linear forwards;
   list-style: none;
   display: inline-block;
@@ -51,7 +51,7 @@ p {
   border: none;
   text-decoration: none;
   word-wrap: break-word;
-  max-width: 600px;
+  max-width: 900px;
 
 }
 
