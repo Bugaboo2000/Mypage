@@ -17,3 +17,7 @@ var showcase = document.querySelector(".showcase");
         }
 var language = document.querySelector("Language");
 language.addEventListener("click", console.log("Button pressed"));
+if(language = "click") {
+    document.querySelector("Langoptions")
+
+}
