@@ -15,9 +15,5 @@ var showcase = document.querySelector(".showcase");
             document.querySelector(".copy").innerHTML = "Criado por Gustavo Ribeiro &copy; 2023";
 
         }
-var language = document.querySelector("Language");
-language.addEventListener("click", console.log("Button pressed"));
-if(language = "click") {
-    document.querySelector("Langoptions")
-
-}
+const language = document.querySelector(".Language");
+language.addEventListener("click", console.log("Button pressed"), document.querySelector("Langoptions").toggle("active"));
