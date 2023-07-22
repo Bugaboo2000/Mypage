@@ -16,4 +16,6 @@ var showcase = document.querySelector(".showcase");
 
         }
 const language = document.querySelector(".Language");
-language.addEventListener("click", console.log("Button pressed"), document.querySelector("Langoptions").toggle("active"));
+language.addEventListener("click", () => {
+document.querySelector(".Langoptions").style.display = "flex";
+})
