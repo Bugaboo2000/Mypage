@@ -6,6 +6,11 @@
 
 }
 
+body {
+
+  height: auto;
+
+}
 .external,
 .Language {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
