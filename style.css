@@ -74,8 +74,7 @@ p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.title,
-.nottosee {
+.title {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   font-size: 60px;
@@ -157,6 +156,7 @@ p {
 
 h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
   color: #EAECED;
   filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
   animation: Scroll 0.90s linear backwards;
@@ -172,6 +172,7 @@ h2 {
 }
 
 .upmenu {
+  
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: none;
   border-color: none;
@@ -211,6 +212,14 @@ h2 {
   color: white;
   height: 3%;
   filter: invert(1);
+  display: none;
+
+}
+
+.menu {
+
+  color: white;
+  height: 3%;
 
 }
 
