@@ -18,12 +18,14 @@ var showcase = document.querySelector(".showcase");
 
         }
 const language = document.querySelector(".Language");
-const langoptions = document.querySelector(".Langoptions");
 language.addEventListener("click", () => {
     const langoptions = document.querySelector(".Langoptions");
     if (langoptions.style.display === "none") {
-      langoptions.style.display = "flex";
+      langoptions.style.display = "block";
     } else {
       langoptions.style.display = "none";
     }
   });
+
+ 
+  
