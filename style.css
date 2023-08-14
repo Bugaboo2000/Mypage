@@ -2,8 +2,8 @@
 
 .tree {
   overflow: scroll;
-  background: linear-gradient(to bottom left, #42d3ff, #ff8fe3, #dfe228) scroll repeat;
-  background-size: cover;
+  background: linear-gradient(to bottom left, #ff8fe3,#42d3ff,#dfe228,#d10df8 ) scroll repeat;
+  background-size: 400% 400%;
  
 }
 
