@@ -1,5 +1,5 @@
 // Portuguese automatic translation
-    if (navigator.language = 'pt-BR') {
+    if (showlang.getAttribute(lang) === "pt-BR") {
 var info = document.querySelector("p");
 info.innerHTML = "Esse projeto foi desenvolvido no intuito de concertar as incompatibilidades e roda-lô em Hardwares mais modernos que utilizam o sistema operacional Linux. Nesse projeto foi utilizado Yaml e shellscript para automatizar a instalação do setup e fazer as configurações se tornarem fáceis de instalar e rodar a última versão do Nglide 21 da Zeus software, possibilitando o jogo rodar com uma API mais moderna como o Vulkan";
 var ghud = document.querySelector(".ghud").innerHTML = "Carmageddon 2 rodando com Gallium Hud";
