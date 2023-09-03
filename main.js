@@ -14,7 +14,8 @@ var showlang = document.querySelector("html");
             document.querySelector(".crosscode").innerHTML = "Tradução do game Crosscode";
             document.querySelector(".lutris").innerHTML = "Projetos do Lutris";
             document.querySelector(".roblox").innerHTML = "Instalador do Roblox para Linux";
-            document.querySelector(".carma2").innerHTML = "Fix para Carmageddon 2 em novos Hardwares";
+            document.querySelector(".carma2").innerHTML = "Fix para Carmageddon 2";
+            document.querySelector(".carma1").innerHTML = "Fix para Carmageddon 1";
             document.querySelector(".rocket").innerHTML = "Instalador do cliente antigo de Rocket League para Linux";
             document.querySelector(".copy").innerHTML = "Criado por Gustavo Ribeiro &copy; 2023";
 
