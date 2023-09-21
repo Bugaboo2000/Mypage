@@ -103,6 +103,9 @@ p {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 15px;
   filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
+  position: absolute;
+  left: 53%;
+  transform: translateX(-50%);
 }
 
 .title {
@@ -273,6 +276,9 @@ h2 {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   list-style: none;
   color: azure;
+  border: 2px solid white;
+  border-radius: 15px;
+  position: relative;
 
 }
 
@@ -298,6 +304,8 @@ option:hover {
   .Language {
     font-size: 65%;
     margin-right: 50px;
+    position: relative;
+    display: inline-block;
   }
 
   p,
