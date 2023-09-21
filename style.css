@@ -105,6 +105,7 @@ p {
   filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
   position: absolute;
   left: 53%;
+  list-style: none;
   transform: translateX(-50%);
 }
 

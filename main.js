@@ -26,8 +26,10 @@ language.addEventListener("click", () => {
     const langoptions = document.querySelector(".Langoptions");
     if (langoptions.style.display === "none") {
       langoptions.style.display = "block";
+      langoptions.style.list = "none";
     } else {
       langoptions.style.display = "none";
+      langoptions.style.list = "none";
     }
   });
 
