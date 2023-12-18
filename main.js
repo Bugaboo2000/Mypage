@@ -1,3 +1,4 @@
+function translation(){
 // Portuguese automatic translation
 var subtitle = document.querySelector("h2");
 var textInfo = document.querySelector(".Textinfo");
@@ -20,6 +21,10 @@ var showlang = document.querySelector("html");
             document.querySelector(".copy").innerHTML = "Criado por Gustavo Ribeiro &copy; 2023";
 
         }
+
+      }
+
+
 
 const language = document.querySelector(".Language");
 language.addEventListener("click", () => {
