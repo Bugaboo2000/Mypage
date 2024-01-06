@@ -314,3 +314,47 @@ option:hover {
 
 
 }
+
+.lutris {
+
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.lutris:hover {
+  box-shadow: 3px 3px 3px lightgray;
+}
+
+.codepage {
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.codepage:hover {
+  box-shadow: 3px 3px 3px lightgray;
+}
+
+
+.codepage {
+  text-align: center;
+  font-size: 35px;
+  list-style: none;
+  display: inline-block;
+  color: white;
+  margin-right: 60px;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
+  animation: Menu 0.90s linear forwards;
+
+}
+
+.codeicon {
+  width: 40px;
+
+
+
+}
