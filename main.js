@@ -1,16 +1,8 @@
 function translation(){
-// Portuguese automatic translation
-var subtitle = document.querySelector("h2");
-var textInfo = document.querySelector(".Textinfo");
-var showcase = document.querySelector(".showcase");
-var showlang = document.querySelector("html");
-    showcase.innerHTML = "In this page you gonna see some previews of my projects"; 
-    console.log(navigator.language);
-//        if (navigator.language = 'pt-BR') {
-          if( showlang.getAttribute("lang") === "pt-BR") {
-            subtitle.innerHTML = "Sobre Mim";
-            showcase.innerHTML = "Nessa página você poderá ver Previews dos meus projetos";
-            textInfo.innerHTML = "Olá o meu nome é Gustavo Ribeiro, e essa é a minha página principal. Sou um desenvolvedor entusiasta, gosto de programar por paixão, por curiosidade e pela ciência. Abaixo tenho listado os meus projetos:"
+            document.querySelector("h2").innerHTML = "Sobre Mim";
+            document.querySelector(".showcase").innerHTML = "Nessa página você poderá ver Previews dos meus projetos";
+            document.querySelector(".Textinfo").innerHTML =  "Olá o meu nome é Gustavo Ribeiro, e essa é a minha página principal. \
+            Sou um desenvolvedor entusiasta, gosto de programar por paixão, por curiosidade e pela ciência. Abaixo tenho listado os meus projetos:"
             document.querySelector(".know").innerHTML = "Projeto mais conhecido"   
             document.querySelector(".crosscode").innerHTML = "Tradução do game Crosscode";
             document.querySelector(".lutris").innerHTML = "Projetos do Lutris";
@@ -22,12 +14,13 @@ var showlang = document.querySelector("html");
 
         }
 
-      }
 
 
 
-const language = document.querySelector(".Language");
-language.addEventListener("click", () => {
+  document.addEventListener("DOMContentLoaded", () => {
+
+function globe() {
+document.querySelector(".Language").addEventListener("click", () => {
     const langoptions = document.querySelector(".Langoptions");
     if (langoptions.style.display === "none") {
       langoptions.style.display = "block";
@@ -37,6 +30,17 @@ language.addEventListener("click", () => {
       langoptions.style.list = "none";
     }
   });
+}
 
- 
-  
+function portuguese() {
+const portuguese = document.querySelector(".portuguese");
+portuguese.addEventListener("click", () =>{ 
+document.querySelector(".Langoptions").style.display = "none";
+return translation();
+
+});
+}
+
+return globe() , portuguese();
+
+});

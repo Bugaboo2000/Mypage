@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100&family=Merriweather+Sans:wght@300&family=Montserrat:wght@100&family=Outfit:wght@100&family=Raleway:wght@100&family=Roboto+Condensed:wght@300&display=swap');
 
-.tree {
-  overflow: scroll;
-  background: linear-gradient(to bottom left, #ff8fe3,#42d3ff,#dfe228,#d10df8 ) scroll repeat;
-  background-size: 400% 400%;
-  animation: Bground 15s ease infinite;
-}
-
 @keyframes Bground {
 
   0% {
@@ -23,13 +16,19 @@
   
 }
 
-
-
 body { 
 
   height: auto;
 
 }
+
+.tree {
+  overflow: scroll;
+  background: linear-gradient(to bottom left, #ff8fe3,#42d3ff,#dfe228,#d10df8 ) scroll repeat;
+  background-size: 400% 400%;
+  animation: Bground 15s ease infinite;
+}
+
 
 .external,
 .Language {
@@ -106,7 +105,7 @@ p {
   position: absolute;
   left: 53%;
   list-style: none;
-  transform: translateX(-50%);
+  transform: translateX(-210%);
 }
 
 .title {
@@ -259,19 +258,6 @@ h2 {
 
 }
 
-.flags {
-  width: 2%;
-  filter: blur(1);
-  padding: 15px;
-}
-.flags:hover {
-
-  color: #91b7c6;
-  transform: translateY(-3px);
-
-}
-
-
 .portuguese,
 .english {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -280,8 +266,10 @@ h2 {
   border: 2px solid white;
   border-radius: 15px;
   position: relative;
+  cursor: pointer;
 
 }
+
 
 option:hover {
 
@@ -307,6 +295,7 @@ option:hover {
     margin-right: 50px;
     position: relative;
     display: inline-block;
+    
   }
 
   p,
