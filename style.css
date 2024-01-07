@@ -315,14 +315,14 @@ option:hover {
 
 }
 
-.lutris {
+.lutrisbutton {
 
   width: 100px;
   border-radius: 30px;
   cursor: pointer;
 }
 
-.lutris:hover {
+.lutrisbutton:hover {
   box-shadow: 3px 3px 3px lightgray;
 }
 
@@ -357,4 +357,9 @@ option:hover {
 
 
 
+}
+
+.carma1 {
+  width: 60%;
+  filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
 }

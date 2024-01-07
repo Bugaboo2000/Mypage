@@ -56,13 +56,6 @@ return translation(), carma2translate();
 });
 }
 
-document.querySelector(".carma2").addEventListener("click", () => {
-if(portuguese() = True) {
-  return portuguese(), carma2translate();
-}
-
-
-});
 
 
 return globe() , portuguese();
