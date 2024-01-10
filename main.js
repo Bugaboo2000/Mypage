@@ -39,7 +39,9 @@ document.querySelector(".Language").addEventListener("click", () => {
     if (langoptions.style.display === "none") {
       langoptions.style.display = "block";
       langoptions.style.list = "none";
-    } else {
+    } 
+ 
+    else {
       langoptions.style.display = "none";
       langoptions.style.list = "none";
     }
@@ -50,7 +52,7 @@ function portuguese() {
 const portuguese = document.querySelector(".portuguese");
 portuguese.addEventListener("click", () =>{ 
 document.querySelector(".Langoptions").style.display = "none";
-return translation(), carma2translate();
+return translation(), carma2translate(), carmatranslate();
 
 
 });

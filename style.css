@@ -226,6 +226,8 @@ h2 {
 .external:hover,
 .Language:hover,
 .icon:hover,
+.lutrisbutton:hover,
+.codepage:hover,
 .sources:hover {
   color: #91b7c6;
   transform: translateY(-3px);
@@ -256,6 +258,13 @@ h2 {
   height: 3%;
   filter: invert(1);
 
+}
+
+.menubutton {
+
+  color: white;
+  height: 3%;
+ 
 }
 
 .portuguese,
@@ -323,6 +332,7 @@ option:hover {
 }
 
 .lutrisbutton:hover {
+
   box-shadow: 3px 3px 3px lightgray;
 }
 
