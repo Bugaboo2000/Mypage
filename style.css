@@ -80,6 +80,7 @@ p {
 }
 
 
+
 @keyframes Fade {
 
   from {
@@ -212,9 +213,7 @@ h2 {
 
 .upmenu {
   
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   border: none;
-  border-color: none;
   padding: 10px;
   font-size: 30px;
   animation: Fade 3s linear forwards;  
@@ -233,7 +232,8 @@ h2 {
 .icon:hover,
 .lutrisbutton:hover,
 .codepage:hover,
-.sources:hover {
+.sources:hover ,
+.menubutton:hover {
   color: #91b7c6;
   transform: translateY(-3px);
 }
