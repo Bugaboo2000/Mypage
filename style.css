@@ -77,6 +77,7 @@ p {
 
 .menubutton {
   filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
+  margin-right: 50px;
 }
 
 
@@ -106,7 +107,6 @@ p {
 .Langoptions {
   display: none;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  padding: 15px;
   filter: drop-shadow(12px 12px 7px rgba(0, 0, 0, 0.7));
   position: absolute;
   left: 53%;
@@ -266,7 +266,6 @@ h2 {
 }
 
 .menubutton {
-
   color: white;
   height: 3%;
  
