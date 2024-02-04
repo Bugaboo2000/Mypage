@@ -1,7 +1,7 @@
 
 function carmatranslate() {
-
-  
+document.querySelector("p").innerHTML = "Esse projeto segue a mesma premissa do fix para Carmageddon 2, tornando mais jogavel em sistema Linux mais modernos";
+document.querySelector(".ghud").innerHTML = "Carmageddon 1 rodando com Vulkan e Mangohud"
 
 }
 
