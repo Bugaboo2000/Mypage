@@ -300,31 +300,24 @@ option:hover {
   outline: none;
 }
 
-@media screen and (max-width: 730px) {
+@media screen and (min-width: 412px) {
 
-  .external,
-  .Language {
-    font-size: 65%;
-    margin-right: 50px;
-    position: relative;
-    display: inline-block;
-    
-  }
 
-  p,
-  li,
-  ul {
 
-    font-size: 40%;
+.title {
+  font-size: 150px;
 
-  }
+}
 
-  .Language {
+h1 {
+font-size: 130px;
 
-    display: none;
+}
 
-  }
+p, li{
 
+font-size: 80px;
+}
 
 }
 
