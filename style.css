@@ -328,7 +328,6 @@ width: 200px;
 }
 
 .upmenu,
-li,
 p {
 
 display: flex;
@@ -377,10 +376,11 @@ font-size: 110px;
 p{
 
 font-size: 80px;
+
 }
 
-li {
 
+li {
 font-size: 75px;
 
 }
@@ -391,7 +391,90 @@ font-size: 75px;
 
 }
 
+.codepage, .lutrisbutton {
+
+width: 300px;
+height: 300px;
+
 }
+
+
+
+}
+
+@media screen and (min-width: 600px) and (max-width: 800) {
+
+  .icon {
+  height: 50px;
+  width: 50px;
+  
+  }
+  
+  .upmenu,
+  p {
+  
+  display: flex;
+  
+  }
+  a {
+  
+  margin-right: 250px;
+  
+  }
+  
+  .external {
+  
+  display: none;
+  
+  }
+  
+  .gitlab {
+  
+  display: inline;
+  font-size: 200px;
+  }
+  
+  .menu {
+  
+  height: 200px;
+  
+  }
+  
+  .Langoptions {
+  
+  display: none;
+  
+  }
+  
+  .title {
+    font-size: 200px;
+  
+  }
+  
+  h1 , h2{
+  font-size: 110px;
+  
+  }
+  
+  p{
+  
+  font-size: 80px;
+  
+  }
+  
+  
+  li {
+  font-size: 75px;
+  
+  }
+  
+  .copy {
+  
+    font-size: 40px;
+  
+  }
+  
+  }
 
 .lutrisbutton {
 
