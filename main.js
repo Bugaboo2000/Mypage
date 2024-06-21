@@ -24,6 +24,17 @@ document.querySelector(".Language").addEventListener("click", () => {
       langoptions.style.list = "none";
     } 
  
+else if (screen.width <= 800){
+  langoptions.style.display = "none";
+  langoptions.style.list = "none";
+
+
+
+  }
+
+
+
+
     else {
       langoptions.style.display = "none";
       langoptions.style.list = "none";
